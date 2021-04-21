@@ -12,7 +12,7 @@ public interface CollegeService {
 
 	public String validateAndSave(CollegeEntity collegeentity);
 
-	public int validateAndSaveAll(List<CollegeEntity> collegeentity);
+	public Integer validateAndSaveAll(List<CollegeEntity> collegeentity);
 	
 	public String validateAndUpdateByCityName(int zipcode, String cityname);
 
